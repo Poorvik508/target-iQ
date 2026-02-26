@@ -8,7 +8,7 @@ const __dirname = path.resolve();
 app.get('/health', (req, res) => {
      res.status(200).json({ msg: "api is running" });
 })
-app.get("/books")
+
 // make our app ready for production
 if (ENV.NODE_ENV == "production")
 {
